@@ -1,0 +1,2 @@
+copy "C:\Work\Workspaces\Own\rozetka-price-tracker\Rozetka.PriceTracker\Rozetka.PriceTracker.Grpc\Protos\price_track.proto" "src/app/protos/price_track.proto" /y
+protoc --plugin=protoc-gen-ts="C:\Work\Workspaces\Own\rozetka-price-tracker\Rozetka.PriceTracker\Rozetka.PriceTracker.Web\ClientApp\node_modules\.bin\protoc-gen-ts.cmd" --js_out="import_style=commonjs,binary:src/app/generated" --ts_out="service=grpc-web:src/app/generated" src/app/protos/price_track.proto

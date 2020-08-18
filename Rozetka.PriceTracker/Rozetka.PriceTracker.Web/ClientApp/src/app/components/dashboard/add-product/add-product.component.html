@@ -1,0 +1,14 @@
+<div style="width: 700px;">
+  <h2 mat-dialog-title> Track new product </h2>
+
+  <div mat-dialog-content>
+    <mat-form-field class="full-width">
+      <mat-label>Product url</mat-label>
+      <input matInput placeholder="Url to product page" [(ngModel)]="url">
+    </mat-form-field>
+  </div>
+  <mat-dialog-actions align="end">
+    <button mat-raised-button mat-dialog-close>Cancel</button>
+    <button mat-raised-button color="primary" [mat-dialog-close]="url" cdkFocusInitial>Add</button>
+  </mat-dialog-actions>
+</div>

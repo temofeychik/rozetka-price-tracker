@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rozetka.PriceTracker.Web", "Rozetka.PriceTracker.Web\Rozetka.PriceTracker.Web.csproj", "{30067947-5A57-4D6F-A84A-2BB3C0B8FBFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rozetka.PriceTracker.Grpc", "Rozetka.PriceTracker.Grpc\Rozetka.PriceTracker.Grpc.csproj", "{BF8F0AC3-1A55-45BC-92B0-A595B30550C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rozetka.PriceTracker.Services", "Rozetka.PriceTracker.Services\Rozetka.PriceTracker.Services.csproj", "{D6E580BD-183A-4FBF-911A-63F9BC5A8EAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rozetka.PriceTracker.Models", "Rozetka.PriceTracker.Models\Rozetka.PriceTracker.Models.csproj", "{1AA29E31-020E-4D44-BC74-316D7C5FBC99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rozetka.PriceTracker.EntityFramework", "Rozetka.PriceTracker.EntityFramework\Rozetka.PriceTracker.EntityFramework.csproj", "{1C02F353-4C1F-4D17-8866-728743892385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozetka.PriceTracker.BackgroundWorkers", "Rozetka.PriceTracker.BackgroundWorkers\Rozetka.PriceTracker.BackgroundWorkers.csproj", "{5F66A6BD-0E2F-4B78-85D4-947E37CF9CC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30067947-5A57-4D6F-A84A-2BB3C0B8FBFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30067947-5A57-4D6F-A84A-2BB3C0B8FBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30067947-5A57-4D6F-A84A-2BB3C0B8FBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30067947-5A57-4D6F-A84A-2BB3C0B8FBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8F0AC3-1A55-45BC-92B0-A595B30550C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8F0AC3-1A55-45BC-92B0-A595B30550C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8F0AC3-1A55-45BC-92B0-A595B30550C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8F0AC3-1A55-45BC-92B0-A595B30550C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E580BD-183A-4FBF-911A-63F9BC5A8EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E580BD-183A-4FBF-911A-63F9BC5A8EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E580BD-183A-4FBF-911A-63F9BC5A8EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E580BD-183A-4FBF-911A-63F9BC5A8EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA29E31-020E-4D44-BC74-316D7C5FBC99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA29E31-020E-4D44-BC74-316D7C5FBC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA29E31-020E-4D44-BC74-316D7C5FBC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA29E31-020E-4D44-BC74-316D7C5FBC99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C02F353-4C1F-4D17-8866-728743892385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C02F353-4C1F-4D17-8866-728743892385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C02F353-4C1F-4D17-8866-728743892385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C02F353-4C1F-4D17-8866-728743892385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F66A6BD-0E2F-4B78-85D4-947E37CF9CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F66A6BD-0E2F-4B78-85D4-947E37CF9CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F66A6BD-0E2F-4B78-85D4-947E37CF9CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F66A6BD-0E2F-4B78-85D4-947E37CF9CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C7EADF9-EDBE-4DE4-B325-1665C39AA551}
+	EndGlobalSection
+EndGlobal

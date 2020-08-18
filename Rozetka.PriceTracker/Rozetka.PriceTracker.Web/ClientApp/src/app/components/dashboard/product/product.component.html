@@ -1,0 +1,18 @@
+<div class="product" [class.unavailable]="!isAvailable" routerLink="/info/{{product.id}}">
+    <div class="product-image" [style.background-image]="getImageUrl(product.imageurl)">
+
+    </div>
+    <p class="price">{{product.price}} ₴ <span>(<span
+                [style.color]="priceDiff < 0 ? 'green':null">{{priceDiff  > 0 ? '+' :''}}{{priceDiff}}</span>)</span>
+
+    </p>
+    <!-- <p>
+        <span *ngFor="let item of product.additionalPricesList">
+            {{item.discountPrice}}
+        </span>
+    </p> -->
+
+    <hr />
+    <a class="title" title="{{product.title}}" href="{{product.url}}" target="_blank">{{product.title}}</a>
+
+</div>
